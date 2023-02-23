@@ -1,0 +1,93 @@
+.profile{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+}
+
+.profile-description{
+    line-height: 30px;
+    text-align: justify;
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-image{
+    height:230px;
+}
+
+.projects-btn{
+    color:black !important;
+}
+
+.intro{
+    height:45px;
+    
+}
+
+.contact-btn{
+    color:black !important
+}
+
+.contact{
+   margin-top:250px;
+}
+
+.about-description{
+    line-height: 35px;
+}
+
+
+@media only screen and (max-width:600px){
+    .profile-pic{
+        width:100% !important;
+        height:100% !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile{
+        width:200px !important;
+        height:200px !important;
+    }
+
+    .bit-about-me, .home-heading{
+        text-align: center;
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+    .profile-description{
+        margin-top:30px;
+        padding:10px;
+        text-align: justify;
+    }
+
+    .intro-btn-section{
+        width:100% ;
+        height:100px ;
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+        /* flex-direction: column !important; */
+    }
+    .intro{
+        width:80px !important;
+    }
+
+    .about-me{
+        text-align: center;
+    }
+
+    .about-card{
+        margin-top: 80px;
+    }
+
+    .contact{
+        margin-top:30px;
+    }
+    .project-card{
+        margin-top:20px;
+    }
+}
