@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from "../Assets/Profile.jpeg";
+import Profile from "../Assets/ActualProfile.jpg";
 import Resume from "../Assets/GouthamPolapally_Resume (1).pdf"
 import "./Home.css"
 const Home = () => {
@@ -14,10 +14,10 @@ const Home = () => {
         <div className='container'>
      
      <div className='row mt-5 '>
-        <div className = "col-lg-6 profile-pic">
-             <img src= {Profile} className="img img-thumbnail profile" alt="profile"/>
+        <div className = "col-lg-4 profile-pic">
+             <img src= {Profile} className="img img-fluid profile" alt="profile"/>
         </div>
-        <div className='col-lg-6'>
+        <div className='col-lg-8'>
          <h3 className = "home-heading">Hello Developers</h3>
          <h6 className='my-3 bit-about-me'>A bit about me</h6>
          <p className='profile-description'>
