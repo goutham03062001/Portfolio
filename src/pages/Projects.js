@@ -128,7 +128,7 @@ const Projects = () => {
                     <div className='card-body'>
                         <p className='text'>English Wallah</p>
                         <p className='text from'>From : 29-08-23</p>
-                        <p className='text to'>To : 11-04-2024</p>
+                        <p className='text to'>To : 10-04-2024</p>
                         <hr/>
                         <p className='text'>
                             Technologies Used 
